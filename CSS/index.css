@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*box-sizing: border-box;*/
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* NAV */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* a {  */
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+ /* font-weight: bold;
+  text-transform: uppercase; */
+}
+
+/* nav styles */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ /* padding-top: 20px; */
+ background-color: rgba(50%, 50%, 30%, 50%); 
+  background-image: linear-gradient(rgba(50%, 50%, 30%, 50%), rgba(255,255,255,50%))
+}
+/* Below controls Heading MK) */
+.heading1 {
+  padding: 0 15px;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+}
+.logo {
+  font-size: 1.8rem;
+ /* color: rgb(5, 5, 116); */
+  color: black;
+  padding-left: 20px;
+}
+
+.hamburgerx {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburgerx .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: black;
+}
+
+.nav_link {
+  position: fixed;
+  width: 94%;
+  top: 3.3rem;
+  left: 16px;
+ /* background-color: lightblue; */
+  background-color: rgba(50%, 50%, 30%, 100%); 
+  background-image: linear-gradient(rgba(50%, 50%, 30%, 20%), rgba(255,255,255,50%));
+  z-index: 20; 
+}
+
+.nav_link a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 20;
+}
+
+.nav_link a:hover {
+ /* background-color: lightcoral; */
+  color: yellow;
+}
+
+.hide {
+  display: none;
+}
+
+.logo {font-size: 1.2rem;}
+/* Continue Nav */
+ /* NAV */
+/*
+@media screen and (min-width: 520px) {
+.nav_link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 20px;
+    background: none;
+  }
+
+  .nav_link a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+  .hamburgerx {
+    display: none;
+  }
+} 
+*/
+/* END NAV */
+/* END NAV */
+
+/*.heading1 { text-allign: center; margin: 5px; 
+  
+}
+header {display: flex;
+  background-color: rgba(100%, 50%, 20%, 50%);
+display: flex;
+  justify-content: space-between; 
+width: 100%;} */
+
+body {
+  background-color: rgba(100%, 50%, 15%, 10%);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+}
+.lefttxt li {
+  padding: 20px;
+}
+/*
+.lft { display: flex;
+  justify-items: inline;
+  align-items: center;
+  justify-content: flex-start;
+ 
+  padding: 0px 10px;
+      
+     margin: 0px;
+
+  
+}
+*/
+/* BELOW controls opening Text */
+.pad1 {
+ display: flex;
+   padding: 20px;
+  
+  justify-content: center;
+  color: black;
+}
+
+/* BELOW CONTROLS MANFRED K ??? no longer  */
+.box1 {
+  color: black;
+  padding: 0 25px 0 0;
+}
+
+.lefttxt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*font-size: 14px;*/
+  /*line-height: 1;*/
+  padding: 0px 5px;
+  color: black;
+}
+
+/*body {
+  background-color: rgba(100%, 50%, 15%, 10%);
+}*/
+
+@media screen and (min-width: 600px) {
+ 
+  /* Continue Nav */
+ /* NAV */
+  .logo {font-size: 1.2rem;} 
+.nav_link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 20px;
+    background: none;
+  }
+
+  .nav_link a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+  .hamburgerx {
+    display: none;
+  }
+}
+
+/* END NAV */
+  
+  
+  
+.tilt-grid {
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 30px;
+  align-items: center;
+
+  padding: 15px;
+
+  /*background-color: rgba(100%, 50%, 15%, 10%);*/
+}
+
+.tilt-arts-price {
+  font-size: 16px;
+  /*font-weight: bold;*/
+  padding: 15px 0;
+}
+
+.tilt-arts-stats > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+  align-items: start;
+
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  
+  .logo {font-size: 1.5rem;}
+  .tilt-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+    align-items: center;
+
+    padding: 15px;
+
+    /* background-color: rgba(100%, 50%, 15%, 10%);*/
+  }
+
+  .tilt-arts-price {
+    font-size: 16px;
+    /*font-weight: bold;*/
+    padding: 15px 0;
+  }
+
+  .tilt-arts-stats > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    align-items: start;
+
+    padding: 5px;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo {font-size: 1.8rem;}
+  .tilt-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 60px;
+    align-items: center;
+
+    padding: 15px;
+
+    /* background-color: rgba(100%, 50%, 15%, 10%);*/
+  }
+
+  .tilt-arts-price {
+    font-size: 16px;
+    /*font-weight: bold;*/
+    padding: 15px 0 0 0;
+  }
+
+  .tilt-arts-stats > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    align-items: start;
+
+    padding: 0 5px 0 0;
+  }
+}
+/* Below controls test Grid item1 */
+.tilt-arts-location2 {
+  /*width=30%;*/
+  text-align: center;
+  color: grey;
+  padding: 50px 5px 0 2px;
+}
+/* BELOW facts2 and price2 have no effect . were part of experiment for grid item 0 */
+.tilt-arts-facts2 {
+  display: flex;
+  flex-direction: column;
+  /* text-align: start; */
+}
+
+.tilt-arts-price2 {
+  font-size: 16px;
+  font-weight: bold;
+ /* text-align: center; */
+  padding: 5px;
+}
+
+.tilt-arts-address {
+  color: grey;
+}
+.tilt-arts-location {
+  color: grey;
+}
+.tilt-arts-title {
+  color: grey;
+}
+.tilt-arts-edition {
+  color: grey;
+}
+.tilt-arts-sqft {
+  color: grey;
+}
+.tilt-arts-price {
+  color: grey;
+}
+
+.center {
+  text-align: center;
+  color: green;
+  padding: 5px;
+}
+.center1 {
+  text-align: center;
+  color: grey;
+  padding: 5px;
+}
+
+.left1 {
+  padding: 10px 10px 10px 18px;
+  color: black;
+  font-size: 16px;
+}
+
+article {
+  padding: 10px 20px 30px 50px;
+}
+.sizeClass {
+  font-size: 15px;
+  color: black;
+}
+
+footer ul {
+  display: flex;
+  padding: 5px;
+  margin: 8px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(75, 75, 75);
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 15px 0;
+  color: rgb(200, 200, 200);
+}
