@@ -50,14 +50,19 @@ a {
 
 .hamburgerx {
  /* position: fixed; */
- position: sticky;
+ /* position: sticky; */
   padding-right: 20px;
   cursor: pointer;
 }
 
 .hamburgerx .line {
   display: block;
-  
+  /* trial*/
+  position: fixed;
+  top: 1rem;
+  left: 16px;
+
+  /* end trial */
   width: 40px;
   height: 5px;
   margin-bottom: 5px;
