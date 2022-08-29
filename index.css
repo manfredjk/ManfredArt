@@ -51,19 +51,19 @@ a {
 .hamburgerx {
  /* position: fixed; */
  /* position: sticky; */
- /* trial*/
- position: fixed;
- top: 3.3rem;
- right: 16px;
-
- /* end trial */
+ 
   padding-right: 20px;
   cursor: pointer;
 }
 
 .hamburgerx .line {
   display: block;
-  
+  /* trial*/
+ position: fixed;
+ top: 3.3rem;
+ right: 16px;
+
+ /* end trial */
   width: 40px;
   height: 5px;
   margin-bottom: 5px;
