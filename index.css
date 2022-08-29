@@ -50,6 +50,7 @@ a {
 
 .hamburgerx {
  /* position: fixed; */
+ position: sticky;
   padding-right: 20px;
   cursor: pointer;
 }
@@ -62,7 +63,7 @@ a {
   margin-bottom: 5px;
   margin-top: 5px;
   background-color: black;
-  position: sticky;
+  
 }
 
 .nav_link {
