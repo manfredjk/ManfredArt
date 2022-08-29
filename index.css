@@ -60,9 +60,9 @@ a {
   display: block;
   /* trial*/
  position: fixed;
- top: 3.3rem;
+ top: 2rem;
  right: 16px;
-
+ z-index: 3;
  /* end trial */
   width: 40px;
   height: 5px;
