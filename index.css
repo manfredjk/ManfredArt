@@ -59,8 +59,8 @@ a {
   display: block;
   /* trial*/
   position: fixed;
-  top: 1rem;
-  left: 16px;
+  top: 2rem;
+  right: 16px;
 
   /* end trial */
   width: 40px;
