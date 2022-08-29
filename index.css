@@ -49,19 +49,20 @@ a {
 }
 
 .hamburgerx {
-  position: fixed;
+ /* position: fixed; */
   padding-right: 20px;
   cursor: pointer;
 }
 
 .hamburgerx .line {
   display: block;
-  /*position: fixed; */
+  
   width: 40px;
   height: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
   background-color: black;
+  position: fixed; 
 }
 
 .nav_link {
