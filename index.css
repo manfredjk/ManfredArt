@@ -51,18 +51,19 @@ a {
 .hamburgerx {
  /* position: fixed; */
  /* position: sticky; */
+ /* trial*/
+ position: fixed;
+ top: 3.3rem;
+ right: 16px;
+
+ /* end trial */
   padding-right: 20px;
   cursor: pointer;
 }
 
 .hamburgerx .line {
   display: block;
-  /* trial*/
-  position: fixed;
-  top: 3.3rem;
-  right: 16px;
-
-  /* end trial */
+  
   width: 40px;
   height: 5px;
   margin-bottom: 5px;
@@ -74,7 +75,7 @@ a {
 .nav_link {
   position: fixed;
   width: 94%;
-  top: 10rem;
+  top: 3.3rem;
   left: 16px;
  /* background-color: lightblue; */
   background-color: rgba(50%, 50%, 30%, 100%); 
