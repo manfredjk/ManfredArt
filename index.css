@@ -62,7 +62,7 @@ a {
   margin-bottom: 5px;
   margin-top: 5px;
   background-color: black;
-  position: fixed; 
+  position: absolute;
 }
 
 .nav_link {
