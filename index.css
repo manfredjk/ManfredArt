@@ -53,16 +53,23 @@ a {
  /* position: sticky; */
  
   padding-right: 20px;
+/* trial*/
+  position: fixed;
+  top: 2rem;
+  right: 16px;
+  z-index: 30;
+/* end trial */
+
   cursor: pointer;
 }
 
 .hamburgerx .line {
   display: block;
   /* trial*/
- position: fixed;
+ /*position: fixed;
  top: 2rem;
  right: 16px;
- z-index: 30;
+ z-index: 30; */
  /* end trial */
   width: 40px;
   height: 5px;
