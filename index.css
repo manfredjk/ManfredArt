@@ -55,8 +55,8 @@ a {
   padding-right: 10px;
 /* trial*/
   position: fixed;
-  top: 2rem;
-  right: 16px;
+  top: 1rem;
+  right: 8px;
   z-index: 30;
 /* end trial */
 
@@ -76,7 +76,7 @@ a {
 
 .nav_link {
   position: fixed;
-  width: 80%;
+  width: 94%;
   top: 3.3rem;
   left: 16px;
  /* background-color: lightblue; */
