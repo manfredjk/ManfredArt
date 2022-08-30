@@ -388,6 +388,6 @@ footer ul {
   background-color: rgb(75, 75, 75);
   font-size: 15px;
   line-height: 1.5;
-  padding: 15px 0;
+  /* padding: 15px 0; */
   color: rgb(200, 200, 200);
 }
