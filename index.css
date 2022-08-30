@@ -89,6 +89,7 @@ a {
   display: block;
   text-align: center;
   padding: 5px o o o;
+  margin-bottom: 5px;
   z-index: 20;
 }
 
