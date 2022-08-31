@@ -59,7 +59,8 @@ img.src =
 img.src =
   "https://manfredcomau.files.wordpress.com/2018/02/manfredkrautschneider_terriblebeauty2_wp_sq.jpg";
  //};
-//-----------------------------------------
+
+ //-----------------------------------------
 
 
 
