@@ -1,23 +1,23 @@
-/* console.log("done") */
+
 /* NAV */
-/* test */
+
 const hamburgerx = document.querySelector('.hamburgerx');
-console.log("Hamburgerx is", hamburgerx);
+
 const navLink = document.querySelector('.nav_link');
-console.log("navLink is", navLink);
+
 
 hamburgerx.addEventListener('click', () => { 
   navLink.classList.toggle('hide');
   
 });
 
-
+// ABOVE WORKING hamburger menu at PHONE size
 //-----------------
-// Following Goes to last in list of images submitted tp decide it's orientation (portrait or landscape)
+// Following Goes to last in list of images submitted to decide it's orientation (portrait or landscape)
 
-/* let i = 0;
+// let i = 0;
 
-var orientation;
+var orient;
    img = new Image();
 // while (i < 4) {i++;   
 //console.log("img")
@@ -26,18 +26,18 @@ img.onload = function () {
 
   console.log(img);
   if (img.naturalWidth > 0.67 * img.naturalHeight) {
-    orientation = "landscape";
+    orient = "landscape";
     //consol.log("orientation');
   } else if (img.naturalWidth < 0.67 * img.naturalHeight) {
-    orientation = "portrait"; 
+    orient = "portrait"; 
    
   } else {
-    orientation = "even";
+    orient = "even";
   }
   
-  console.log(orientation);
+  console.log(orient);
   document.body.innerHTML +=
-    '<img src="' + img.src + '"/><h1>' + orientation + "</h1>";
+    '<img src="' + img.src + '"/><h1>' + orient + "</h1>";
 }
 
 
@@ -57,7 +57,7 @@ img.src =
   "https://manfredcomau.files.wordpress.com/2018/01/krautschneider_disturbingbeauty_wppostpix350w.jpg";
 
 img.src =
-  "https://manfredcomau.files.wordpress.com/2018/02/manfredkrautschneider_terriblebeauty2_wp_sq.jpg"; */
+  "https://manfredcomau.files.wordpress.com/2018/02/manfredkrautschneider_terriblebeauty2_wp_sq.jpg";
  //};
 //-----------------------------------------
 
