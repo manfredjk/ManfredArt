@@ -16,7 +16,7 @@ hamburgerx.addEventListener('click', () => {
 // Following Goes to last in list of images submitted to decide it's orientation (portrait or landscape)
 
 // let i = 0;
-
+/*
 var orient;
    img = new Image();
 // while (i < 4) {i++;   
@@ -38,7 +38,7 @@ img.onload = function () {
   console.log(orient);
   document.body.innerHTML +=
     '<img src="' + img.src + '"/><h1>' + orient + "</h1>";
-};
+}
 
 
 img.src =
@@ -62,7 +62,7 @@ img.src =
 
  //-----------------------------------------
 
-
+*/
 
 //This version interrogates element to see if Portrait Note my 67% rule for extremes
 
