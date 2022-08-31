@@ -38,7 +38,7 @@ img.onload = function () {
   console.log(orient);
   document.body.innerHTML +=
     '<img src="' + img.src + '"/><h1>' + orient + "</h1>";
-}
+};
 
 
 img.src =
