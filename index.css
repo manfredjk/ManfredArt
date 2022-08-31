@@ -111,13 +111,13 @@ a {
     display: block;
     position: static;
     width: auto;
-    margin-right: 20px;
+    margin-right: 15px;
     background: none;
   }
 
   .nav_link a {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 15px 15px;
   }
 
   .hamburgerx {
@@ -202,13 +202,13 @@ ul li {
     display: block;
     position: static;
     width: auto;
-    margin-right: 20px;
+    margin-right: 15px;
     background: none;
   }
 
   .nav_link a {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 15px 15px;
   }
 
   .hamburgerx {
