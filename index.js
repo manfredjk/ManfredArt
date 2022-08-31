@@ -1,5 +1,8 @@
 
 /* NAV */
+document.addEventListener('DOMContentLoaded', () => {
+  // …
+
 
 const hamburgerx = document.querySelector('.hamburgerx');
 
@@ -11,6 +14,7 @@ hamburgerx.addEventListener('click', () => {
   
 });
 
+});
 // ABOVE WORKING hamburger menu at PHONE size
 //-----------------
 // Following Goes to last in list of images submitted to decide it's orientation (portrait or landscape)
