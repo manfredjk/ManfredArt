@@ -15,18 +15,21 @@ hamburgerx.addEventListener('click', () => {
 });
 
 //});
+
 // ABOVE WORKING hamburger menu at PHONE size
-//-----------------
+
+//-------------------------------------------------------
+
 // Following Goes to last in list of images submitted to decide it's orientation (portrait or landscape)
 
 // let i = 0;
-/*
+
 var orient;
    img = new Image();
 // while (i < 4) {i++;   
 //console.log("img")
 
-img.onload = function () {
+   img.onload = function () {
 
   console.log(img);
   if (img.naturalWidth > 0.67 * img.naturalHeight) {
@@ -39,16 +42,17 @@ img.onload = function () {
     orient = "even";
   }
   
-  console.log(orient);
+   console.log(orient);
   document.body.innerHTML +=
     '<img src="' + img.src + '"/><h1>' + orient + "</h1>";
 }
 
-
+/*
 img.src =
   "https://manfredcomau.files.wordpress.com/2021/09/krautschneider_manfred_shiftingground_2020_pigmentprint_60x86wpproj.jpg";
-
-img.src =
+ */
+  
+/* img.src =
   "https://manfredcomau.files.wordpress.com/2018/02/krautschneidermselfie.jpg";
 
 img.src =
