@@ -25,32 +25,65 @@ hamburgerx.addEventListener('click', () => {
 // let i = 0;
 
 var orient;
-   img = new Image();
+//The next 3 lines copy the image to HTML body W/O interfering with hamburger menu
+const myImage = new Image();
+ if (myImage.naturalWidth > 0.67 * myImage.naturalHeight) {
+  orient = "landscape"; 
+  //consol.log("orientation');
+/* } else if (img.naturalWidth < 0.67 * img.naturalHeight) { 
+  orient = "portrait"; */
+ } else {
+  orient = "portrait";
+}; 
+myImage.src = "https://manfredcomau.files.wordpress.com/2018/02/krautschneidermselfie.jpg";
+document.body.appendChild(myImage);
+
+const fragment = document.createDocumentFragment();
+const li = fragment
+  .appendChild(document.createElement('section'))
+  .appendChild(document.createElement('ul'))
+  .appendChild(document.createElement('li'));
+// li.textContent = 'hello world';
+li.textContent = orient;
+document.body.appendChild(fragment);
+
+
+/* document.body.appendChild("orient"); WRONG */
+ // BELOW WORKS BUT INTERFERES WITH HAMBURGER AND "RESISTANCE" image !!!!!?????
+/* document.body.innerHTML +=
+    '<img src="' + myImage.src + '"/><h1>' + orient + "</h1>"; 
+*/
+
+
+
+// BELOW CODE INRTERFERS WITH HAMBURGER MENU
+   // img = new Image();
 // while (i < 4) {i++;   
 //console.log("img")
-
-   img.onload = function () {
-
+//document.addEventListener('DOMContentLoaded', () => {
+  /* img.onload = function () {
+   
   console.log(img);
   if (img.naturalWidth > 0.67 * img.naturalHeight) {
-    orient = "landscape";
+    orient = "landscape"; */
     //consol.log("orientation');
-  } else if (img.naturalWidth < 0.67 * img.naturalHeight) {
-    orient = "portrait"; 
-   
-  } else {
-    orient = "even";
-  }
-  
-   console.log(orient);
+  /* } else if (img.naturalWidth < 0.67 * img.naturalHeight) { 
+    orient = "portrait"; */
+     /*} else {
+    orient = "portrait";
+  };
+     console.log(orient);
   document.body.innerHTML +=
     '<img src="' + img.src + '"/><h1>' + orient + "</h1>";
-}
+};
+   //document.body.innerHTML +=
+      //'<img src="' + img.src + '"/><h1>' + orient + "</h1>";
+    
+//});
 
-/*
-img.src =
+ img.src =
   "https://manfredcomau.files.wordpress.com/2021/09/krautschneider_manfred_shiftingground_2020_pigmentprint_60x86wpproj.jpg";
- */
+*/
   
 /* img.src =
   "https://manfredcomau.files.wordpress.com/2018/02/krautschneidermselfie.jpg";
