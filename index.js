@@ -21,8 +21,7 @@ hamburgerx.addEventListener('click', () => {
 //-------------------------------------------------------
 
 // Following Goes to last in list of images submitted to decide it's orientation (portrait or landscape)
-
-// let i = 0;
+// and displays it as a section, unorederd list, and list item (but not in DOM(?))
 
 var orient;
 //The next 3 lines copy the image to HTML body W/O interfering with hamburger menu
@@ -36,8 +35,14 @@ const myImage = new Image();
   orient = "portrait";
 }; 
 myImage.src = "https://manfredcomau.files.wordpress.com/2018/02/krautschneidermselfie.jpg";
-document.body.appendChild(myImage);
 
+myImage.src =
+  "https://manfredcomau.files.wordpress.com/2019/04/krautschneider_manfred_listeningtothelandscapewp.jpg";
+
+myImage.src =
+  "https://manfredcomau.files.wordpress.com/2018/02/krautschneiderm_sresistanceweb.jpg";
+
+  document.body.appendChild(myImage);
 const fragment = document.createDocumentFragment();
 const li = fragment
   .appendChild(document.createElement('section'))
@@ -55,8 +60,10 @@ document.body.appendChild(fragment);
 */
 
 
-
+// Following Goes to last in list of images submitted to decide it's orientation (portrait or landscape)
 // BELOW CODE INRTERFERS WITH HAMBURGER MENU
+
+// let i = 0;
    // img = new Image();
 // while (i < 4) {i++;   
 //console.log("img")
