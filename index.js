@@ -42,16 +42,30 @@ myImage.src =
 myImage.src =
   "https://manfredcomau.files.wordpress.com/2018/02/krautschneiderm_sresistanceweb.jpg";
 
-  document.body.appendChild(myImage);
+//  document.body.appendChild(myImage);
+ 
+  
 const fragment = document.createDocumentFragment();
 const li = fragment
   .appendChild(document.createElement('section'))
+  // add class="tilt-grid-item"
+  .appendChild(document.createElement('div'))
   .appendChild(document.createElement('ul'))
   .appendChild(document.createElement('li'));
-// li.textContent = 'hello world';
-li.textContent = orient;
+  
+ li.textContent = orient;
+ 
+// fragment.classList.add('tilt-grid');
+
+document.body.appendChild(myImage);
+
 document.body.appendChild(fragment);
 
+//fragment.classList.add('tilt-grid');
+
+//document.body.appendChild(myImage);
+
+// document.querySelector('.container').appendChild(myImage)
 
 /* document.body.appendChild("orient"); WRONG */
  // BELOW WORKS BUT INTERFERES WITH HAMBURGER AND "RESISTANCE" image !!!!!?????
