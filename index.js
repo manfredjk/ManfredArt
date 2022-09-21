@@ -44,22 +44,72 @@ myImage.src =
 
 //  document.body.appendChild(myImage);
  
-  
+/* // THIS CODE creates a mock Grid Fragment and appends it including the fact it is panorama or portrait (CSS formatted)
+//const newfirstel = document.getElementById('noclash');
 const fragment = document.createDocumentFragment();
+
 const li = fragment
   .appendChild(document.createElement('section'))
   // add class="tilt-grid-item"
   .appendChild(document.createElement('div'))
   .appendChild(document.createElement('ul'))
   .appendChild(document.createElement('li'));
-  
+ // div.imgSource = myImage;
  li.textContent = orient;
  
-// fragment.classList.add('tilt-grid');
+ document.body.appendChild(fragment);
+ document.body.appendChild(myImage);
 
-document.body.appendChild(myImage);
+// fragment.classList.add('tilt-grid'); */
 
-document.body.appendChild(fragment);
+ //NEW next - THIS inserts a new section (grid element) at top of GRID
+// Get the parent element
+let parentElement = document.getElementById('maingrid')
+// Get the parent's first child
+let theFirstChild = parentElement.firstChild
+// Create a new element
+let newElement = document.createElement("section")
+//let newElement = document.createElement("div")  //works the same as "section"
+// Insert the new element before the first child
+parentElement.insertBefore(newElement, theFirstChild)
+// document.section.appendChild(fragment);
+
+//END New next
+
+//NEW new The ADDITION OF THIS CODE PLACES image specified here (CSS formatted) In NEW SECTION Created above.
+//document.querySelector('.unformed');
+//const gal = document.querySelector('div.tilt-arts-image1')
+const gal = document.querySelector('section')
+//console.log(gal)
+// gal.textContent = "LOOK";
+gal.innerHTML = '<img src= "https://manfredcomau.files.wordpress.com/2018/02/krautschneiderm_sresistanceweb.jpg" id="tilt-arts-image" align="left" alt="" width=67%;>';
+//end NEW new
+
+/* //NEW next - THIS inserts a new section (grid element) at top of GRID
+// Get the parent element
+let parentElement = document.getElementById('maingrid')
+// Get the parent's first child
+let theFirstChild = parentElement.firstChild
+// Create a new element
+let newElement = document.createElement("section")
+// Insert the new element before the first child
+parentElement.insertBefore(newElement, theFirstChild)
+// document.section.appendChild(fragment);
+
+//END New next */
+
+//NEXT
+//const newNode = document.createElement("li");
+//const textNode = document.createTextNode("Water");
+//newNode.appendChild(textNode);
+
+//const list = document.getElementById("myList");
+//list.insertBefore(newNode, list.children[0]);
+//END NEXT
+
+//Following 2 lines reqd for image and orientation to appear at end of body
+//document.body.appendChild(myImage);
+//document.body.appendChild(fragment);
 
 //fragment.classList.add('tilt-grid');
 
